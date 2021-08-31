@@ -25,7 +25,7 @@ function TodoList() {
 		}
 
 		// Update DB
-		const url = "http://localhost:8000/add/item"
+		const url = "https://todobackenddemo.herokuapp.com/add/item"
 
 		const requestOptions = {
 			method: 'POST',
@@ -59,7 +59,7 @@ function TodoList() {
 		})
 
 		// Update DB
-		const url = "http://localhost:8000/complete/item/" + id
+		const url = "https://todobackenddemo.herokuapp.com/complete/item/" + id
 
 		const data = {
 				"isComplete": newValue
